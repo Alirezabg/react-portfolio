@@ -6,8 +6,7 @@ const Home = () => {
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          Hi, <br /> I'm <br />
-          Alireza
+          Hi, <br /> I'm Alireza
           <br />
           web developer
         </h1>
