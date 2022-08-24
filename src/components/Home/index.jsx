@@ -30,9 +30,9 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <span className={letterClass}>H</span>
-            <span className={`{letterClass}_12`}>i,</span>
-            <br /> I'm{' '}
+            <span className={letterClass}>Hi</span>
+            <br /> <span className={`${letterClass} _15`}>I'm</span>
+            {' '}
             <AnimatedLetters letterClass={letterClass} strArray={nameArray} />
             <br />
             <AnimatedLetters letterClass={letterClass} strArray={jobArray} />
